@@ -11,6 +11,8 @@
 #include "mcal_init.h"
 #include "asw_com.h"
 
+#include "ftimer.h"
+
 T_U16 a = 0;
 
 void TASK_Inits()
@@ -36,7 +38,7 @@ void TASK_10ms()
 
 void TASK_100ms()
 { 
-    
+    functie1();
 }
 
 void TASK_500ms()
@@ -46,6 +48,6 @@ void TASK_500ms()
 
 void TASK_1000ms()
 {
-    a = !a;
-    GPIO_u8WritePortPin(PORT_A, 10, a);
+   // a = !a;
+    //GPIO_u8WritePortPin(PORT_A, 10, a);
 }
