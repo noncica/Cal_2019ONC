@@ -12,12 +12,13 @@
 #include "asw_com.h"
 
 #include "ftimer.h"
-
+#include "asw_move.h"
 T_U16 a = 0;
 
 void TASK_Inits()
 {
     MCAL_vInit();
+    initializare();
     GPIO_u8SetPortPin(PORT_A, 10, DIGITAL ,OUTPUT);
 }
 
@@ -33,7 +34,7 @@ void TASK_5ms()
 
 void TASK_10ms()
 {   
-
+    miscare();
 }
 
 void TASK_100ms()

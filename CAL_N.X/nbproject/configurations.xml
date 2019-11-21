@@ -20,6 +20,9 @@
       <itemPath>sys_schedule.h</itemPath>
       <itemPath>sys_tasks.h</itemPath>
       <itemPath>ftimer.h</itemPath>
+      <itemPath>hal_dc.h</itemPath>
+      <itemPath>asw_move.h</itemPath>
+      <itemPath>rte.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -43,6 +46,8 @@
       <itemPath>sys_schedule.c</itemPath>
       <itemPath>sys_tasks.c</itemPath>
       <itemPath>ftimer.c</itemPath>
+      <itemPath>hal_dc.c</itemPath>
+      <itemPath>asw_move.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -215,6 +220,9 @@
         <property key="relaxed-math" value="false"/>
         <property key="save-temps" value="false"/>
       </C30Global>
+      <PICkit3PlatformTool>
+        <property key="firmware.download.all" value="false"/>
+      </PICkit3PlatformTool>
     </conf>
   </confs>
 </configurationDescriptor>

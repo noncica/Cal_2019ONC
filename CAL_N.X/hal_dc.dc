@@ -1,0 +1,23 @@
+/* 
+ * File:   hal_dc.dc
+ * Author: student
+ *
+ * Created on November 21, 2019, 6:18 PM
+ */
+
+#ifndef HAL_DC_DC
+#define	HAL_DC_DC
+
+#ifdef	__cplusplus
+extern "C" {
+#endif
+
+
+
+
+#ifdef	__cplusplus
+}
+#endif
+
+#endif	/* HAL_DC_DC */
+
