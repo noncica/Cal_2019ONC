@@ -12,7 +12,7 @@
 #define RTE_vSetMotorDir HAL_vSetMotorDir
 #define RTE_vInit HAL_vInit
 #define RTE_vSetMotorSpeed HAL_vSetMotorSpeed
-
+#define RTE_vServoMotor HAL_vServoMotor
 
 
 #endif	/* RTE_H */
