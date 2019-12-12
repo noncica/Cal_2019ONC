@@ -35,6 +35,7 @@ void TASK_5ms()
 void TASK_10ms()
 {   
     miscare();
+    
 }
 
 void TASK_100ms()
