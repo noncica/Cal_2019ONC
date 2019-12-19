@@ -18,7 +18,7 @@ T_U16 a = 0;
 void TASK_Inits()
 {
     MCAL_vInit();
-    initializare();
+    initializare(); //functie din asw_move
     GPIO_u8SetPortPin(PORT_A, 10, DIGITAL ,OUTPUT);
 }
 
@@ -34,7 +34,7 @@ void TASK_5ms()
 
 void TASK_10ms()
 {   
-    miscare();
+    miscare(); //functie in asw_move care controleaza masina
     
 }
 
