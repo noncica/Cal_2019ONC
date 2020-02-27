@@ -16,9 +16,7 @@
 int main() 
 {
     TASK_Inits();
-    
     TASK_vSchedule();
-
     
     while(1)
     {           

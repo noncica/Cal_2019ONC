@@ -4,7 +4,6 @@
 
 T_U8 HAL_afisareBaterie()//redenumit in RTE in rte.h
 {
-    ADC_vInit();
     T_U16 val=ADC_u16Read(0);
     T_U8 rez=0;
     T_U8 charge=0;
