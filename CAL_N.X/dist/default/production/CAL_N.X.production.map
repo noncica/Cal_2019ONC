@@ -115,13 +115,13 @@ section                    address   length (PC units)   length (bytes) (dec)
 -------                    -------   -----------------   --------------------
 .text                        0x200               0x49e           0x6ed  (1773)
 .const                       0x69e                 0x6             0x9  (9)
-.text                        0x6a4              0x137c          0x1d3a  (7482)
-.dinit                      0x1a20                0x2c            0x42  (66)
-.text                       0x1a4c                0x1e            0x2d  (45)
-.init.delay32               0x1a6a                0x1c            0x2a  (42)
-.text                       0x1a86                0x2e            0x45  (69)
+.text                        0x6a4              0x13a4          0x1d76  (7542)
+.dinit                      0x1a48                0x2c            0x42  (66)
+.text                       0x1a74                0x1e            0x2d  (45)
+.init.delay32               0x1a92                0x1c            0x2a  (42)
+.text                       0x1aae                0x2e            0x45  (69)
 
-                 Total "program" memory used (bytes):         0x250e  (9486) 7%
+                 Total "program" memory used (bytes):         0x254a  (9546) 7%
 
 
 "data" Memory  [Origin = 0x800, Length = 0x4000]
@@ -310,75 +310,75 @@ External Symbols in Program Memory (by address):
                   0x0014f8                  _test_vToggle_CSN
                   0x001516                  _test_vToggle_CE
                   0x001534                  _test_vToggle_IRQ
-                  0x001552                  _HAL_afisareBaterie
-                  0x00161e                  _initializare
-                  0x001626                  _miscare
-                  0x0016d2                  _INT0_vSetPolarity
-                  0x0016ec                  _INT0_bGetPolarity
-                  0x0016fa                  _INT_vInit
-                  0x00170e                  _INT0_vInit
-                  0x00172e                  _INT1_vInit
-                  0x001754                  _INT2_vInit
-                  0x001780                  _HAL_vSetDirLineFollower
-                  0x0017c4                  _HAL_vWriteLineFollower
-                  0x0017fa                  _HAL_u8GetValueLineFollower
-                  0x00181e                  _HAL_vServoMotor
-                  0x0018b2                  _ADC_vInit
-                  0x0018cc                  _ADC_u16Read
-                  0x00190a                  _TASK_Inits
-                  0x00191e                  _TASK_1ms
-                  0x001924                  _TASK_5ms
-                  0x00192a                  _TASK_10ms
-                  0x001932                  _TASK_100ms
-                  0x001950                  _TASK_500ms
-                  0x001956                  _TASK_1000ms
-                  0x00195c                  _COM_vInit
-                  0x001962                  _COM_vSendMessage
-                  0x00196e                  _COM_vStartListening
-                  0x001976                  _COM_vProcessMessage
-                  0x00197e                  _COM_vProcessFIFO
-                  0x0019a6                  _QEI_vInit
-                  0x0019dc                  _QEI_u16getCount
-                  0x0019e4                  _QEI_vResetCount
-                  0x0019ee                  _HAL_vSetMotorDir
-                  0x0019fe                  _HAL_vInit
-                  0x001a10                  _HAL_vSetMotorSpeed
-                  0x001a4c                  _functie1
-                  0x001a6a                  ___delay32
-                  0x001a86                  _MCAL_vInit
-                  0x001a9c                  _OSC_vInit
-                  0x001aac                  _main
+                  0x001552                  _initializare
+                  0x00155a                  _miscare
+                  0x001646                  _HAL_afisareBaterie
+                  0x001712                  _INT0_vSetPolarity
+                  0x00172c                  _INT0_bGetPolarity
+                  0x00173a                  _INT_vInit
+                  0x00174e                  _INT0_vInit
+                  0x00176e                  _INT1_vInit
+                  0x001794                  _INT2_vInit
+                  0x0017c0                  _HAL_vSetDirLineFollower
+                  0x001804                  _HAL_vWriteLineFollower
+                  0x00183a                  _HAL_u8GetValueLineFollower
+                  0x00185e                  _HAL_vServoMotor
+                  0x0018f2                  _ADC_vInit
+                  0x00190c                  _ADC_u16Read
+                  0x00194a                  _COM_vInit
+                  0x001950                  _COM_vSendMessage
+                  0x00195c                  _COM_vStartListening
+                  0x001964                  _COM_vProcessMessage
+                  0x00196c                  _COM_vProcessFIFO
+                  0x001994                  _QEI_vInit
+                  0x0019ca                  _QEI_u16getCount
+                  0x0019d2                  _QEI_vResetCount
+                  0x0019dc                  _TASK_Inits
+                  0x0019f0                  _TASK_1ms
+                  0x0019f6                  _TASK_5ms
+                  0x0019fc                  _TASK_10ms
+                  0x001a04                  _TASK_100ms
+                  0x001a0a                  _TASK_500ms
+                  0x001a10                  _TASK_1000ms
+                  0x001a16                  _HAL_vSetMotorDir
+                  0x001a26                  _HAL_vInit
+                  0x001a38                  _HAL_vSetMotorSpeed
+                  0x001a74                  _functie1
+                  0x001a92                  ___delay32
+                  0x001aae                  _MCAL_vInit
+                  0x001ac4                  _OSC_vInit
+                  0x001ad4                  _main
 
 External Symbols in Program Memory (by name):
 
-                  0x0018cc                  _ADC_u16Read
-                  0x0018b2                  _ADC_vInit
-                  0x00195c                  _COM_vInit
-                  0x00197e                  _COM_vProcessFIFO
-                  0x001976                  _COM_vProcessMessage
-                  0x001962                  _COM_vSendMessage
-                  0x00196e                  _COM_vStartListening
+                  0x00190c                  _ADC_u16Read
+                  0x0018f2                  _ADC_vInit
+                  0x00194a                  _COM_vInit
+                  0x00196c                  _COM_vProcessFIFO
+                  0x001964                  _COM_vProcessMessage
+                  0x001950                  _COM_vSendMessage
+                  0x00195c                  _COM_vStartListening
                   0x000d94                  _GPIO_u16ReadPort
                   0x000cdc                  _GPIO_u8ReadPortPin
                   0x000aba                  _GPIO_u8SetPortPin
                   0x000c2e                  _GPIO_u8WritePortPin
                   0x000d60                  _GPIO_vWritePort
-                  0x001552                  _HAL_afisareBaterie
-                  0x0017fa                  _HAL_u8GetValueLineFollower
-                  0x0019fe                  _HAL_vInit
-                  0x00181e                  _HAL_vServoMotor
-                  0x001780                  _HAL_vSetDirLineFollower
-                  0x0019ee                  _HAL_vSetMotorDir
-                  0x001a10                  _HAL_vSetMotorSpeed
-                  0x0017c4                  _HAL_vWriteLineFollower
-                  0x0016ec                  _INT0_bGetPolarity
-                  0x00170e                  _INT0_vInit
-                  0x0016d2                  _INT0_vSetPolarity
-                  0x00172e                  _INT1_vInit
-                  0x001754                  _INT2_vInit
-                  0x0016fa                  _INT_vInit
-                  0x001a86                  _MCAL_vInit
-                  0x001a9c                  _OSC_vInit
+                  0x001646                  _HAL_afisareBaterie
+                  0x00183a                  _HAL_u8GetValueLineFollower
+                  0x001a26                  _HAL_vInit
+                  0x00185e                  _HAL_vServoMotor
+                  0x0017c0                  _HAL_vSetDirLineFollower
+                  0x001a16                  _HAL_vSetMotorDir
+                  0x001a38                  _HAL_vSetMotorSpeed
+                  0x001804                  _HAL_vWriteLineFollower
+                  0x00172c                  _INT0_bGetPolarity
+                  0x00174e                  _INT0_vInit
+                  0x001712                  _INT0_vSetPolarity
+                  0x00176e                  _INT1_vInit
+                  0x001794                  _INT2_vInit
+                  0x00173a                  _INT_vInit
+                  0x001aae                  _MCAL_vInit
+                  0x001ac4                  _OSC_vInit
                   0x000dbe                  _PWM1_vInit
                   0x000e74                  _PWM1_vSetDuty
                   0x000fd2                  _PWM1_vSetDutyPeriod
@@ -387,9 +387,9 @@ External Symbols in Program Memory (by name):
                   0x000f68                  _PWM2_vSetDuty
                   0x000ffa                  _PWM2_vSetDutyPeriod
                   0x000e58                  _PWM2_vSetPeriod
-                  0x0019dc                  _QEI_u16getCount
-                  0x0019a6                  _QEI_vInit
-                  0x0019e4                  _QEI_vResetCount
+                  0x0019ca                  _QEI_u16getCount
+                  0x001994                  _QEI_vInit
+                  0x0019d2                  _QEI_vResetCount
                   0x000926                  _RF_u8Get_FifoStatus
                   0x000918                  _RF_u8Get_ObsTx
                   0x00090a                  _RF_u8Get_Status
@@ -430,13 +430,13 @@ External Symbols in Program Memory (by name):
                   0x0011e0                  _SPI_RF_u8WriteReg_5Bytes
                   0x001096                  _SPI_RF_vDisable
                   0x00103a                  _SPI_RF_vInit
-                  0x001956                  _TASK_1000ms
-                  0x001932                  _TASK_100ms
-                  0x00192a                  _TASK_10ms
-                  0x00191e                  _TASK_1ms
-                  0x001950                  _TASK_500ms
-                  0x001924                  _TASK_5ms
-                  0x00190a                  _TASK_Inits
+                  0x001a10                  _TASK_1000ms
+                  0x001a04                  _TASK_100ms
+                  0x0019fc                  _TASK_10ms
+                  0x0019f0                  _TASK_1ms
+                  0x001a0a                  _TASK_500ms
+                  0x0019f6                  _TASK_5ms
+                  0x0019dc                  _TASK_Inits
                   0x001450                  _TASK_vSchedule
                   0x0012d2                  _TIM2_u16GetCount
                   0x00123e                  _TIM2_vInit
@@ -478,7 +478,7 @@ External Symbols in Program Memory (by name):
                   0x00033e                  __T4Interrupt
                   0x000346                  __T5Interrupt
                   0x000356                  ___addsf3
-                  0x001a6a                  ___delay32
+                  0x001a92                  ___delay32
                   0x000410                  ___divsf3
                   0x000494                  ___eqsf2
                   0x00049c                  ___fixunssfsi
@@ -503,10 +503,10 @@ External Symbols in Program Memory (by name):
                   0x000552                  __funpack2
                   0x00023c                  __psv_init
                   0x000200                  __resetPRI
-                  0x001a4c                  _functie1
-                  0x00161e                  _initializare
-                  0x001aac                  _main
-                  0x001626                  _miscare
+                  0x001a74                  _functie1
+                  0x001552                  _initializare
+                  0x001ad4                  _main
+                  0x00155a                  _miscare
                   0x0014e6                  _test_pin_setup
                   0x000a7c                  _test_vReceiver
                   0x001516                  _test_vToggle_CE
@@ -712,7 +712,7 @@ __FUID3
 .comment
  *(.comment)
 
-.debug_info       0x000000       0x8b40
+.debug_info       0x000000       0x8bb2
  *(.debug_info)
  .debug_info      0x000000        0x2bb build/default/production/asw_com.o
  .debug_info      0x0002bb        0x906 build/default/production/hal_nRF.o
@@ -727,16 +727,16 @@ __FUID3
  .debug_info      0x004541       0x1193 build/default/production/mcal_spi.o
  .debug_info      0x0056d4       0x1a61 build/default/production/mcal_timers.o
  .debug_info      0x007135        0xdea build/default/production/sys_schedule.o
- .debug_info      0x007f1f        0x25b build/default/production/sys_tasks.o
- .debug_info      0x00817a        0x177 build/default/production/ftimer.o
- .debug_info      0x0082f1        0x218 build/default/production/hal_dc.o
- .debug_info      0x008509         0xf8 build/default/production/asw_move.o
- .debug_info      0x008601        0x182 build/default/production/servo.o
- .debug_info      0x008783        0x212 build/default/production/hal_LineFollower.o
- .debug_info      0x008995        0x1ab build/default/production/hal_acumulator.o
+ .debug_info      0x007f1f        0x209 build/default/production/sys_tasks.o
+ .debug_info      0x008128        0x177 build/default/production/ftimer.o
+ .debug_info      0x00829f        0x218 build/default/production/hal_dc.o
+ .debug_info      0x0084b7        0x1bc build/default/production/asw_move.o
+ .debug_info      0x008673        0x182 build/default/production/servo.o
+ .debug_info      0x0087f5        0x212 build/default/production/hal_LineFollower.o
+ .debug_info      0x008a07        0x1ab build/default/production/hal_acumulator.o
  *(.gnu.linkonce.wi.*)
 
-.debug_abbrev     0x000000        0xfa7
+.debug_abbrev     0x000000        0xfb4
  *(.debug_abbrev)
  .debug_abbrev    0x000000         0xc7 build/default/production/asw_com.o
  .debug_abbrev    0x0000c7        0x1a0 build/default/production/hal_nRF.o
@@ -751,15 +751,15 @@ __FUID3
  .debug_abbrev    0x0008b8        0x174 build/default/production/mcal_spi.o
  .debug_abbrev    0x000a2c        0x1d2 build/default/production/mcal_timers.o
  .debug_abbrev    0x000bfe         0xc4 build/default/production/sys_schedule.o
- .debug_abbrev    0x000cc2         0x7b build/default/production/sys_tasks.o
- .debug_abbrev    0x000d3d         0x61 build/default/production/ftimer.o
- .debug_abbrev    0x000d9e         0x92 build/default/production/hal_dc.o
- .debug_abbrev    0x000e30         0x32 build/default/production/asw_move.o
- .debug_abbrev    0x000e62         0x5f build/default/production/servo.o
- .debug_abbrev    0x000ec1         0x96 build/default/production/hal_LineFollower.o
- .debug_abbrev    0x000f57         0x50 build/default/production/hal_acumulator.o
+ .debug_abbrev    0x000cc2         0x52 build/default/production/sys_tasks.o
+ .debug_abbrev    0x000d14         0x61 build/default/production/ftimer.o
+ .debug_abbrev    0x000d75         0x92 build/default/production/hal_dc.o
+ .debug_abbrev    0x000e07         0x68 build/default/production/asw_move.o
+ .debug_abbrev    0x000e6f         0x5f build/default/production/servo.o
+ .debug_abbrev    0x000ece         0x96 build/default/production/hal_LineFollower.o
+ .debug_abbrev    0x000f64         0x50 build/default/production/hal_acumulator.o
 
-.debug_line       0x000000       0x10c6
+.debug_line       0x000000       0x1107
  *(.debug_line)
  .debug_line      0x000000         0x5a build/default/production/asw_com.o
  .debug_line      0x00005a        0x150 build/default/production/hal_nRF.o
@@ -774,13 +774,13 @@ __FUID3
  .debug_line      0x00098d        0x17f build/default/production/mcal_spi.o
  .debug_line      0x000b0c        0x1f4 build/default/production/mcal_timers.o
  .debug_line      0x000d00        0x14a build/default/production/sys_schedule.o
- .debug_line      0x000e4a         0x74 build/default/production/sys_tasks.o
- .debug_line      0x000ebe         0x49 build/default/production/ftimer.o
- .debug_line      0x000f07         0x4f build/default/production/hal_dc.o
- .debug_line      0x000f56         0x52 build/default/production/asw_move.o
- .debug_line      0x000fa8         0x53 build/default/production/servo.o
- .debug_line      0x000ffb         0x68 build/default/production/hal_LineFollower.o
- .debug_line      0x001063         0x63 build/default/production/hal_acumulator.o
+ .debug_line      0x000e4a         0x5c build/default/production/sys_tasks.o
+ .debug_line      0x000ea6         0x49 build/default/production/ftimer.o
+ .debug_line      0x000eef         0x4f build/default/production/hal_dc.o
+ .debug_line      0x000f3e         0xab build/default/production/asw_move.o
+ .debug_line      0x000fe9         0x53 build/default/production/servo.o
+ .debug_line      0x00103c         0x68 build/default/production/hal_LineFollower.o
+ .debug_line      0x0010a4         0x63 build/default/production/hal_acumulator.o
 
 .debug_frame      0x000000       0x10ae
  *(.debug_frame)
@@ -2057,13 +2057,13 @@ LOAD data_init
  .debug_pubtypes
                   0x000a56        0x14d build/default/production/sys_schedule.o
  .debug_pubtypes
-                  0x000ba3         0x2f build/default/production/sys_tasks.o
+                  0x000ba3         0x1c build/default/production/sys_tasks.o
  .debug_pubtypes
-                  0x000bd2         0x1b build/default/production/ftimer.o
+                  0x000bbf         0x1b build/default/production/ftimer.o
  .debug_pubtypes
-                  0x000bed         0x38 build/default/production/hal_dc.o
+                  0x000bda         0x38 build/default/production/hal_dc.o
  .debug_pubtypes
-                  0x000c25         0x12 build/default/production/asw_move.o
+                  0x000c12         0x25 build/default/production/asw_move.o
  .debug_pubtypes
                   0x000c37         0x1c build/default/production/servo.o
  .debug_pubtypes
@@ -2222,7 +2222,7 @@ __c30_signature
 .const              0x869e          0x6 load address 0x00069e  
  .const             0x869e          0x6 build/default/production/hal_nRF.o
 
-.text             0x0006a4       0x137c
+.text             0x0006a4       0x13a4
  .text            0x0006a4        0x416 build/default/production/hal_nRF.o
                   0x0006a4                  _RF_vCloseAllPipes
                   0x0006ba                  _RF_vOpenPipeZero
@@ -2320,65 +2320,65 @@ __c30_signature
                   0x0014f8                  _test_vToggle_CSN
                   0x001516                  _test_vToggle_CE
                   0x001534                  _test_vToggle_IRQ
- .text            0x001552         0xcc build/default/production/hal_acumulator.o
-                  0x001552                  _HAL_afisareBaterie
- .text            0x00161e         0xb4 build/default/production/asw_move.o
-                  0x00161e                  _initializare
-                  0x001626                  _miscare
- .text            0x0016d2         0xae build/default/production/mcal_interrupts.o
-                  0x0016d2                  _INT0_vSetPolarity
-                  0x0016ec                  _INT0_bGetPolarity
-                  0x0016fa                  _INT_vInit
-                  0x00170e                  _INT0_vInit
-                  0x00172e                  _INT1_vInit
-                  0x001754                  _INT2_vInit
- .text            0x001780         0x9e build/default/production/hal_LineFollower.o
-                  0x001780                  _HAL_vSetDirLineFollower
-                  0x0017c4                  _HAL_vWriteLineFollower
-                  0x0017fa                  _HAL_u8GetValueLineFollower
- .text            0x00181e         0x94 build/default/production/servo.o
-                  0x00181e                  _HAL_vServoMotor
- .text            0x0018b2         0x58 build/default/production/mcal_adc.o
-                  0x0018b2                  _ADC_vInit
-                  0x0018cc                  _ADC_u16Read
- .text            0x00190a         0x52 build/default/production/sys_tasks.o
-                  0x00190a                  _TASK_Inits
-                  0x00191e                  _TASK_1ms
-                  0x001924                  _TASK_5ms
-                  0x00192a                  _TASK_10ms
-                  0x001932                  _TASK_100ms
-                  0x001950                  _TASK_500ms
-                  0x001956                  _TASK_1000ms
- .text            0x00195c         0x4a build/default/production/asw_com.o
-                  0x00195c                  _COM_vInit
-                  0x001962                  _COM_vSendMessage
-                  0x00196e                  _COM_vStartListening
-                  0x001976                  _COM_vProcessMessage
-                  0x00197e                  _COM_vProcessFIFO
- .text            0x0019a6         0x48 build/default/production/mcal_encoder.o
-                  0x0019a6                  _QEI_vInit
-                  0x0019dc                  _QEI_u16getCount
-                  0x0019e4                  _QEI_vResetCount
- .text            0x0019ee         0x32 build/default/production/hal_dc.o
-                  0x0019ee                  _HAL_vSetMotorDir
-                  0x0019fe                  _HAL_vInit
-                  0x001a10                  _HAL_vSetMotorSpeed
+ .text            0x001552         0xf4 build/default/production/asw_move.o
+                  0x001552                  _initializare
+                  0x00155a                  _miscare
+ .text            0x001646         0xcc build/default/production/hal_acumulator.o
+                  0x001646                  _HAL_afisareBaterie
+ .text            0x001712         0xae build/default/production/mcal_interrupts.o
+                  0x001712                  _INT0_vSetPolarity
+                  0x00172c                  _INT0_bGetPolarity
+                  0x00173a                  _INT_vInit
+                  0x00174e                  _INT0_vInit
+                  0x00176e                  _INT1_vInit
+                  0x001794                  _INT2_vInit
+ .text            0x0017c0         0x9e build/default/production/hal_LineFollower.o
+                  0x0017c0                  _HAL_vSetDirLineFollower
+                  0x001804                  _HAL_vWriteLineFollower
+                  0x00183a                  _HAL_u8GetValueLineFollower
+ .text            0x00185e         0x94 build/default/production/servo.o
+                  0x00185e                  _HAL_vServoMotor
+ .text            0x0018f2         0x58 build/default/production/mcal_adc.o
+                  0x0018f2                  _ADC_vInit
+                  0x00190c                  _ADC_u16Read
+ .text            0x00194a         0x4a build/default/production/asw_com.o
+                  0x00194a                  _COM_vInit
+                  0x001950                  _COM_vSendMessage
+                  0x00195c                  _COM_vStartListening
+                  0x001964                  _COM_vProcessMessage
+                  0x00196c                  _COM_vProcessFIFO
+ .text            0x001994         0x48 build/default/production/mcal_encoder.o
+                  0x001994                  _QEI_vInit
+                  0x0019ca                  _QEI_u16getCount
+                  0x0019d2                  _QEI_vResetCount
+ .text            0x0019dc         0x3a build/default/production/sys_tasks.o
+                  0x0019dc                  _TASK_Inits
+                  0x0019f0                  _TASK_1ms
+                  0x0019f6                  _TASK_5ms
+                  0x0019fc                  _TASK_10ms
+                  0x001a04                  _TASK_100ms
+                  0x001a0a                  _TASK_500ms
+                  0x001a10                  _TASK_1000ms
+ .text            0x001a16         0x32 build/default/production/hal_dc.o
+                  0x001a16                  _HAL_vSetMotorDir
+                  0x001a26                  _HAL_vInit
+                  0x001a38                  _HAL_vSetMotorSpeed
 
-.dinit            0x001a20         0x2c
- .dinit           0x001a20         0x2c data_init
+.dinit            0x001a48         0x2c
+ .dinit           0x001a48         0x2c data_init
 
-.text             0x001a4c         0x1e
- .text            0x001a4c         0x1e build/default/production/ftimer.o
-                  0x001a4c                  _functie1
+.text             0x001a74         0x1e
+ .text            0x001a74         0x1e build/default/production/ftimer.o
+                  0x001a74                  _functie1
 
-.init.delay32     0x001a6a         0x1c
- .init.delay32    0x001a6a         0x1c c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\liblega-pic30-elf.a(delay32.Leo)
-                  0x001a6a                  ___delay32
+.init.delay32     0x001a92         0x1c
+ .init.delay32    0x001a92         0x1c c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\liblega-pic30-elf.a(delay32.Leo)
+                  0x001a92                  ___delay32
 
-.text             0x001a86         0x2e
- .text            0x001a86         0x16 build/default/production/mcal_init.o
-                  0x001a86                  _MCAL_vInit
- .text            0x001a9c         0x10 build/default/production/mcal_osc.o
-                  0x001a9c                  _OSC_vInit
- .text            0x001aac          0x8 build/default/production/main.o
-                  0x001aac                  _main
+.text             0x001aae         0x2e
+ .text            0x001aae         0x16 build/default/production/mcal_init.o
+                  0x001aae                  _MCAL_vInit
+ .text            0x001ac4         0x10 build/default/production/mcal_osc.o
+                  0x001ac4                  _OSC_vInit
+ .text            0x001ad4          0x8 build/default/production/main.o
+                  0x001ad4                  _main

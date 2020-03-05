@@ -42,11 +42,12 @@ void TASK_10ms()
 void TASK_100ms()
 { 
     //functie1(); afisare led baterie
-    if(bObs){
+    /*if(bObs){
         GPIO_u8WritePortPin(PORT_A, 10, 1);
     }
     else
         GPIO_u8WritePortPin(PORT_A, 10, 0);
+     */
 }
 
 void TASK_500ms()

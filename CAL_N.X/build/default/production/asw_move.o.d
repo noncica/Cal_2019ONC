@@ -6,4 +6,7 @@ servo.h  \
 rte.h  \
 hal_dc.h  \
 hal_LineFollower.h  \
-hal_acumulator.h 
+hal_acumulator.h  \
+ mcal_interrupts.h  \
+general.h  \
+mcal_gpio.h 
