@@ -13,6 +13,8 @@
 
 #include "ftimer.h"
 #include "asw_move.h"
+#include "mcal_encoder.h"
+#include "rte.h"
 
 T_U16 a = 0;
 
@@ -36,7 +38,7 @@ void TASK_5ms()
 void TASK_10ms()
 {   
     miscare(); //functie in asw_move care controleaza masina
-    
+    //miscare2pe_cm();//functie in asw_move care controleaza masina pe o anumita distanta: 50 cm
 }
 
 void TASK_100ms()

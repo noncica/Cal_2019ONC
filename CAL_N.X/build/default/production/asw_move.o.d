@@ -9,4 +9,5 @@ hal_LineFollower.h  \
 hal_acumulator.h  \
  mcal_interrupts.h  \
 general.h  \
-mcal_gpio.h 
+mcal_gpio.h  \
+mcal_encoder.h 

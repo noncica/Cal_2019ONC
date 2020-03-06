@@ -10,6 +10,7 @@
 #include "hal_dc.h"
 #include "hal_LineFollower.h"
 #include "hal_acumulator.h"
+#include "servo.h"
 
 #define RTE_vSetMotorDir HAL_vSetMotorDir
 #define RTE_vInit HAL_vInit

@@ -14,6 +14,7 @@ extern "C" {
 
     void initializare();
     void miscare();
+    void miscare2pe_cm();
 
 #ifdef	__cplusplus
 }

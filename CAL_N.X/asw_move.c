@@ -2,7 +2,7 @@
 #include "servo.h"
 #include "rte.h"
 #include "mcal_interrupts.h"
-
+#include "mcal_encoder.h"
 
 void initializare(){//gasesc functia in sys_task
 RTE_vInit();
@@ -58,4 +58,19 @@ void miscare(){//gasesc functia in sys_task
             RTE_vSetMotorSpeed(0,2);//hal_dc.c
             RTE_vServoMotor(90);//servo.c
         }
+}
+
+T_S16 aduna;
+void miscare2pe_cm()
+{
+    aduna=aduna+QEI_s16getElapsed();
+    if(aduna<5000)//5000=50 cm
+    miscare(); 
+    else
+    {
+        GPIO_u8WritePortPin(PORT_A, 10, 1);
+            RTE_vSetMotorDir(0);//hal_dc.c
+            RTE_vSetMotorSpeed(0,2);//hal_dc.c
+            RTE_vServoMotor(90);//servo.c
+    }
 }
